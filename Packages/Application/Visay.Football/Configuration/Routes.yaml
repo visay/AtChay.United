@@ -1,0 +1,12 @@
+#                                                                        #
+# Default routes configuration for the Welcome package                   #
+#                                                                        #
+
+-
+  name: 'List Player'
+  uriPattern: ''
+  defaults:
+    '@package':    'Visay.Football'
+    '@controller': 'Player'
+    '@action':     'index'
+    '@format':     'html'
